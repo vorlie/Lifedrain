@@ -5,6 +5,7 @@ import net.fabricmc.fabric.api.event.player.AttackEntityCallback;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.mob.MobEntity;
 import net.minecraft.entity.player.PlayerEntity;
+import net.minecraft.entity.mob.HostileEntity;
 import net.minecraft.util.ActionResult;
 import net.minecraft.util.Identifier;
 import org.slf4j.Logger;
@@ -29,15 +30,15 @@ public class LifeDrain implements ModInitializer {
 				hand,
 				entity,
 				hitResult) -> {
-			// Ensure the code runs on the server and the target is a valid mob
-			if (!world.isClient && entity instanceof MobEntity) {
-				handleLifesteal(player, (MobEntity) entity);
+			// Ensure the code runs on the server and the target is a valid hostile mob
+			if (!world.isClient && entity instanceof HostileEntity) {
+				handleLifesteal(player, (HostileEntity) entity);
 			}
 			return ActionResult.PASS;
 		});
 	}
 
-	private void handleLifesteal(PlayerEntity player, MobEntity mob) {
+	private void handleLifesteal(PlayerEntity player, HostileEntity mob) {
 		if (player != null && mob != null && mob.isAlive()) {
 			// Base healing amount based on difficulty
 			float baseHeal = switch (mob.getWorld().getDifficulty()) {
