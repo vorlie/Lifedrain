@@ -1,0 +1,11 @@
+{
+	"required": true,
+	"package": "vorlie.lifedrain.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+		"ExampleMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

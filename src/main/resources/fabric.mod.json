@@ -1,0 +1,44 @@
+{
+	"schemaVersion": 1,
+	"id": "lifedrain",
+	"version": "${version}",
+	"name": "LifeDrain",
+	"description": "Attacking hostile mobs will heal you.",
+	"authors": [
+		"vorlie"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/lifedrain/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"vorlie.lifedrain.LifeDrain"
+		],
+		"client": [
+			"vorlie.lifedrain.LifeDrainClient"
+		],
+		"fabric-datagen": [
+			"vorlie.lifedrain.LifeDrainDataGenerator"
+		]
+	},
+	"mixins": [
+		"lifedrain.mixins.json",
+		{
+			"config": "lifedrain.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.16.10",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
