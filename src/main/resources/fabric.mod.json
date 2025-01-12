@@ -10,7 +10,7 @@
 	"contact": {
 		"sources": "https://github.com/vorlie/Lifedrain"
 	},
-	"license": "CC0-1.0",
+	"license": "MIT",
 	"icon": "assets/lifedrain/icon.png",
 	"environment": "*",
 	"entrypoints": {
