@@ -7,6 +7,7 @@
         - Normal: 1.0 HP
         - Hard: 0.5 HP
     - Bonus healing based on the damage dealt: 20% of the damage dealt.
+    - Lifesteal cooldown is set to 1000 milliseconds (1 second) by default.
 - Applies only to hostile mobs, ensuring lifesteal is balanced and works as intended in combat.
 
 ⚙️ **Configuration:**
