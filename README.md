@@ -30,5 +30,6 @@ This mod is lightweight and perfect for anyone who enjoys combat-focused gamepla
 
 **Requirements:**
 - Fabric Loader 0.16.10+
+- Fabric API 0.102.0+1.21+
 - Minecraft 1.21.X
 - Java 21+
