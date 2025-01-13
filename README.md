@@ -1,8 +1,9 @@
 # **LifeDrain**
+[Features](#-features) • [Configuration](#-configuration) • [Translations](#translations-available) • [Requirements](#requirements)
 
 **LifeDrain** adds a simple but powerful mechanic to Minecraft: stealing life from hostile mobs. Every time you attack, you’ll heal yourself based on the damage dealt, making combat a way to stay alive rather than just survive.
 
-🩸 **Features:**
+### 🩸 Features:
 - **Healing mechanics:**
     - Base healing scales with the difficulty level:
         - Easy: 2.0 HP
@@ -15,7 +16,7 @@
     - **Client-Side Configuration Options:** Through **Cloth Config** and **Mod Menu**, you can customize particle effects, cooldown settings, and other features directly from the in-game settings menu.
 - Applies only to hostile mobs, ensuring lifesteal is balanced and works as intended in combat.
 
-⚙️ **Configuration:**
+### ⚙️ Configuration:
 - Customize healing values for different difficulty levels:
     - Base healing for Easy, Normal, and Hard modes.
     - Bonus healing multiplier based on the damage dealt.
@@ -27,7 +28,7 @@
 - The config file is automatically updated to add missing values if they are not found.
 - Use the `/check_config` command to automatically check and update the config file if necessary.
 
-**Translations Available:**  
+### Translations Available:
 The mod is fully translated into the following languages:
 - **English**
 - **Polish**
@@ -44,7 +45,7 @@ This mod is lightweight and perfect for anyone who enjoys combat-focused gamepla
 
 **Note:** Although the mod can be loaded in Minecraft `1.21.X`, it is not recommended. Attacking a hostile mob in versions other than `1.21` will cause your game to crash.
 
-**Requirements:**
+### Requirements:
 - Fabric Loader 0.16.10
 - Fabric API 0.102.0 (for Minecraft 1.21)
 - Minecraft 1.21
