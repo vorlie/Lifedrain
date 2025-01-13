@@ -1,0 +1,10 @@
+{
+  "config.lifedrain.title": "LifeDrain Configuration",
+  "config.lifedrain.general": "General",
+  "config.lifedrain.enableParticles": "Enable Particles",
+  "config.lifedrain.lifestealCooldown": "Lifesteal Cooldown (ms)",
+  "config.lifedrain.baseHealEasy": "Base Heal (Easy)",
+  "config.lifedrain.baseHealNormal": "Base Heal (Normal)",
+  "config.lifedrain.baseHealHard": "Base Heal (Hard)",
+  "config.lifedrain.bonusHealMultiplier": "Bonus Heal Multiplier"
+}

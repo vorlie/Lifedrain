@@ -1,0 +1,10 @@
+{
+  "config.lifedrain.title": "LifeDrain 설정",
+  "config.lifedrain.general": "일반",
+  "config.lifedrain.enableParticles": "입자 효과 활성화",
+  "config.lifedrain.lifestealCooldown": "생명력 흡수 쿨타임 (ms)",
+  "config.lifedrain.baseHealEasy": "기본 치유 (쉬움)",
+  "config.lifedrain.baseHealNormal": "기본 치유 (일반)",
+  "config.lifedrain.baseHealHard": "기본 치유 (어려움)",
+  "config.lifedrain.bonusHealMultiplier": "보너스 치유 배율"
+}

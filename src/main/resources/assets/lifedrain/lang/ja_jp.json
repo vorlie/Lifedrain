@@ -1,0 +1,10 @@
+{
+  "config.lifedrain.title": "LifeDrainの設定",
+  "config.lifedrain.general": "一般",
+  "config.lifedrain.enableParticles": "パーティクルを有効にする",
+  "config.lifedrain.lifestealCooldown": "ライフスティールクールダウン (ms)",
+  "config.lifedrain.baseHealEasy": "基本回復 (イージー)",
+  "config.lifedrain.baseHealNormal": "基本回復 (ノーマル)",
+  "config.lifedrain.baseHealHard": "基本回復 (ハード)",
+  "config.lifedrain.bonusHealMultiplier": "ボーナス回復乗数"
+}

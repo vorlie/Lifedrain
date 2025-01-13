@@ -1,0 +1,10 @@
+{
+  "config.lifedrain.title": "Konfiguracja LifeDrain",
+  "config.lifedrain.general": "Ogólne",
+  "config.lifedrain.enableParticles": "Włącz cząsteczki",
+  "config.lifedrain.lifestealCooldown": "Czas odnowienia Lifesteal (ms)",
+  "config.lifedrain.baseHealEasy": "Podstawowe Leczenie (Łatwy)",
+  "config.lifedrain.baseHealNormal": "Podstawowe Leczenie (Normalny)",
+  "config.lifedrain.baseHealHard": "Podstawowe Leczenie (Trudny)",
+  "config.lifedrain.bonusHealMultiplier": "Mnożnik Leczenia Bonusowego"
+}

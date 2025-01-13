@@ -1,0 +1,10 @@
+{
+  "config.lifedrain.title": "Настройки LifeDrain",
+  "config.lifedrain.general": "Общее",
+  "config.lifedrain.enableParticles": "Включить частицы",
+  "config.lifedrain.lifestealCooldown": "Время восстановления воровства жизни (мс)",
+  "config.lifedrain.baseHealEasy": "Основное исцеление (Легкий)",
+  "config.lifedrain.baseHealNormal": "Основное исцеление (Нормальный)",
+  "config.lifedrain.baseHealHard": "Основное исцеление (Трудный)",
+  "config.lifedrain.bonusHealMultiplier": "Множитель бонусного исцеления"
+}

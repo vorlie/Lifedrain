@@ -1,0 +1,10 @@
+{
+  "config.lifedrain.title": "Configuración de LifeDrain",
+  "config.lifedrain.general": "General",
+  "config.lifedrain.enableParticles": "Habilitar partículas",
+  "config.lifedrain.lifestealCooldown": "Temps de recharge du vol de vie (ms)",
+  "config.lifedrain.baseHealEasy": "Guérison de base (Facile)",
+  "config.lifedrain.baseHealNormal": "Guérison de base (Normal)",
+  "config.lifedrain.baseHealHard": "Guérison de base (Difficile)",
+  "config.lifedrain.bonusHealMultiplier": "Multiplicateur de guérison bonus"
+}

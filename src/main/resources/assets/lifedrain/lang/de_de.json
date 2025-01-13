@@ -1,0 +1,10 @@
+{
+  "config.lifedrain.title": "LifeDrain Konfiguration",
+  "config.lifedrain.general": "Allgemein",
+  "config.lifedrain.enableParticles": "Partikel aktivieren",
+  "config.lifedrain.lifestealCooldown": "Lebensdiebstahl Abklingzeit (ms)",
+  "config.lifedrain.baseHealEasy": "Basisheilung (Einfach)",
+  "config.lifedrain.baseHealNormal": "Basisheilung (Normal)",
+  "config.lifedrain.baseHealHard": "Basisheilung (Schwierig)",
+  "config.lifedrain.bonusHealMultiplier": "Bonus Heilungs Multiplikator"
+}

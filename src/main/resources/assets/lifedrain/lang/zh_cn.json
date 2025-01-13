@@ -1,0 +1,10 @@
+{
+  "config.lifedrain.title": "LifeDrain 配置",
+  "config.lifedrain.general": "通用",
+  "config.lifedrain.enableParticles": "启用粒子效果",
+  "config.lifedrain.lifestealCooldown": "吸血冷却时间 (毫秒)",
+  "config.lifedrain.baseHealEasy": "基础治疗 (简单)",
+  "config.lifedrain.baseHealNormal": "基础治疗 (正常)",
+  "config.lifedrain.baseHealHard": "基础治疗 (困难)",
+  "config.lifedrain.bonusHealMultiplier": "额外治疗倍增"
+}
