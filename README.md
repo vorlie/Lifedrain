@@ -22,6 +22,9 @@
 
 This mod is lightweight and perfect for anyone who enjoys combat-focused gameplay or just wants a little extra survivability.
 
+**Note:** While the mod can be loaded to 1.21.X, it's advised to not to. It will crash your instance when you will attack a hostile mob.
+
+
 **Requirements:**
 - Fabric Loader 0.16.10+
 - Fabric API 0.102.0+1.21+
