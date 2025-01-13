@@ -1,0 +1,16 @@
+{
+  "config.lifedrain.title": "LifeDrain Configuration",
+  "config.lifedrain.general": "General",
+  "config.lifedrain.enableParticles": "Enable Particles",
+  "config.lifedrain.lifestealCooldown": "Lifesteal Cooldown (ms)",
+  "config.lifedrain.baseHealEasy": "Base Heal (Easy)",
+  "config.lifedrain.baseHealNormal": "Base Heal (Normal)",
+  "config.lifedrain.baseHealHard": "Base Heal (Hard)",
+  "config.lifedrain.bonusHealMultiplier": "Bonus Heal Multiplier",
+  "config.lifedrain.enableParticles.tooltip": "This setting only affects the client. The server may override it. In single-player, values will work locally.",
+  "config.lifedrain.lifestealCooldown.tooltip": "Server-side cooldown value is used, and client settings are ignored. In single-player, values will work locally.",
+  "config.lifedrain.baseHealEasy.tooltip": "Server determines the base healing values. In single-player, values will work locally.",
+  "config.lifedrain.baseHealNormal.tooltip": "Server determines the base healing values. In single-player, values will work locally.",
+  "config.lifedrain.baseHealHard.tooltip": "Server determines the base healing values. In single-player, values will work locally.",
+  "config.lifedrain.bonusHealMultiplier.tooltip": "Server determines the bonus healing multiplier. In single-player, values will work locally."
+}

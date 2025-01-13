@@ -1,0 +1,16 @@
+{
+  "config.lifedrain.title": "Configuración de LifeDrain",
+  "config.lifedrain.general": "General",
+  "config.lifedrain.enableParticles": "Activar partículas",
+  "config.lifedrain.lifestealCooldown": "Tiempo de recarga de robo de vida (ms)",
+  "config.lifedrain.baseHealEasy": "Curación base (Fácil)",
+  "config.lifedrain.baseHealNormal": "Curación base (Normal)",
+  "config.lifedrain.baseHealHard": "Curación base (Difícil)",
+  "config.lifedrain.bonusHealMultiplier": "Multiplicador de curación extra",
+  "config.lifedrain.enableParticles.tooltip": "Esta opción solo afecta al cliente. El servidor puede sobrescribirla. En single-player, los valores funcionarán localmente.",
+  "config.lifedrain.lifestealCooldown.tooltip": "El valor de cooldown del servidor se usa, y los ajustes del cliente son ignorados. En single-player, los valores funcionarán localmente.",
+  "config.lifedrain.baseHealEasy.tooltip": "El servidor determina los valores base de curación. En single-player, los valores funcionarán localmente.",
+  "config.lifedrain.baseHealNormal.tooltip": "El servidor determina los valores base de curación. En single-player, los valores funcionarán localmente.",
+  "config.lifedrain.baseHealHard.tooltip": "El servidor determina los valores base de curación. En single-player, los valores funcionarán localmente.",
+  "config.lifedrain.bonusHealMultiplier.tooltip": "El servidor determina el multiplicador de curación adicional. En single-player, los valores funcionarán localmente."
+}

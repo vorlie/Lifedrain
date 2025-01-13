@@ -1,0 +1,16 @@
+{
+  "config.lifedrain.title": "LifeDrainの設定",
+  "config.lifedrain.general": "一般",
+  "config.lifedrain.enableParticles": "パーティクルを有効にする",
+  "config.lifedrain.lifestealCooldown": "ライフスティールクールダウン (ms)",
+  "config.lifedrain.baseHealEasy": "基本回復 (イージー)",
+  "config.lifedrain.baseHealNormal": "基本回復 (ノーマル)",
+  "config.lifedrain.baseHealHard": "基本回復 (ハード)",
+  "config.lifedrain.bonusHealMultiplier": "ボーナス回復乗数",
+  "config.lifedrain.enableParticles.tooltip": "この設定はクライアントにのみ影響します。サーバーが上書きする可能性があります。シングルプレイヤーでは値がローカルで適用されます。",
+  "config.lifedrain.lifestealCooldown.tooltip": "サーバー側のクールダウン値が使用され、クライアント設定は無視されます。シングルプレイヤーでは値がローカルで適用されます。",
+  "config.lifedrain.baseHealEasy.tooltip": "サーバーが基本的な回復値を決定します。シングルプレイヤーでは値がローカルで適用されます。",
+  "config.lifedrain.baseHealNormal.tooltip": "サーバーが基本的な回復値を決定します。シングルプレイヤーでは値がローカルで適用されます。",
+  "config.lifedrain.baseHealHard.tooltip": "サーバーが基本的な回復値を決定します。シングルプレイヤーでは値がローカルで適用されます。",
+  "config.lifedrain.bonusHealMultiplier.tooltip": "サーバーがボーナス回復倍率を決定します。シングルプレイヤーでは値がローカルで適用されます。"
+}

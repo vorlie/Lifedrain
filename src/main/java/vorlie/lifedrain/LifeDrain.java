@@ -3,15 +3,11 @@ package vorlie.lifedrain;
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.event.lifecycle.v1.ServerLifecycleEvents;
 import net.fabricmc.fabric.api.event.player.AttackEntityCallback;
-import net.fabricmc.fabric.api.command.v1.CommandRegistrationCallback;
+import net.fabricmc.fabric.api.command.v2.CommandRegistrationCallback;
 
 import net.minecraft.entity.mob.HostileEntity;
 import net.minecraft.entity.player.PlayerEntity;
-import net.minecraft.particle.ParticleTypes;
-import net.minecraft.server.world.ServerWorld;
 import net.minecraft.util.ActionResult;
-import net.minecraft.util.Identifier;
-import net.minecraft.util.math.random.Random;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -27,7 +23,7 @@ public class LifeDrain implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-		LOGGER.info("LifeDrain mod initialized!");
+		LOGGER.info("Lifesteal: LifeDrain mod initialized!");
 		ConfigManager.load(); // Load configuration
 
 		COOLDOWN_TIME = ConfigManager.CONFIG.lifestealCooldown;
@@ -44,14 +40,15 @@ public class LifeDrain implements ModInitializer {
 		// Register the config reload event
 		ServerLifecycleEvents.END_DATA_PACK_RELOAD.register((server, resourceManager, success) -> {
 			ConfigManager.load();
-			LOGGER.info("LifeDrain config reloaded.");
+			LOGGER.info("Lifesteal: LifeDrain config reloaded.");
 			COOLDOWN_TIME = ConfigManager.CONFIG.lifestealCooldown;
 		});
 
-		CommandRegistrationCallback.EVENT.register((dispatcher, registryAccess) -> {
-			ConfigCheckCommand.register(dispatcher);  // Only two parameters are expected here
+		CommandRegistrationCallback.EVENT.register((dispatcher, registryAccess, environment) -> {
+			ConfigCheckCommand.register(dispatcher); // Register your custom command
 		});
 	}
+
 	private void handleLifesteal(PlayerEntity player, HostileEntity mob) {
 		if (player != null && mob != null && mob.isAlive()) {
 			// Base healing amount from configuration
@@ -69,19 +66,6 @@ public class LifeDrain implements ModInitializer {
 			// Total healing (base + bonus)
 			float totalHeal = baseHeal + bonusHeal;
 			player.heal(totalHeal);
-
-			// Show particles if enabled
-			if (ConfigManager.CONFIG.enableParticles && player.getWorld() instanceof ServerWorld serverWorld) {
-				Random random = player.getRandom();
-				for (int i = 0; i < 10; i++) {
-					serverWorld.spawnParticles(
-							ParticleTypes.HEART,
-							player.getX() + random.nextDouble() - 0.5,
-							player.getY() + random.nextDouble(),
-							player.getZ() + random.nextDouble() - 0.5,
-							1, 0, 0, 0, 0);
-				}
-			}
 
 			LOGGER.info("Lifesteal: {} healed {} (Base: {}, Bonus: {}).",
 					player.getName().getString(), totalHeal, baseHeal, bonusHeal);

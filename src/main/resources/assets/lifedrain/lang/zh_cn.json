@@ -1,0 +1,16 @@
+{
+  "config.lifedrain.title": "LifeDrain 配置",
+  "config.lifedrain.general": "通用",
+  "config.lifedrain.enableParticles": "启用粒子效果",
+  "config.lifedrain.lifestealCooldown": "吸血冷却时间 (毫秒)",
+  "config.lifedrain.baseHealEasy": "基础治疗 (简单)",
+  "config.lifedrain.baseHealNormal": "基础治疗 (正常)",
+  "config.lifedrain.baseHealHard": "基础治疗 (困难)",
+  "config.lifedrain.bonusHealMultiplier": "额外治疗倍增",
+  "config.lifedrain.enableParticles.tooltip": "此设置仅影响客户端。服务器可能会覆盖它。在单人游戏中，值将本地生效。",
+  "config.lifedrain.lifestealCooldown.tooltip": "服务器的冷却时间值会被使用，客户端设置将被忽略。在单人游戏中，值将本地生效。",
+  "config.lifedrain.baseHealEasy.tooltip": "服务器决定基础治疗值。在单人游戏中，值将本地生效。",
+  "config.lifedrain.baseHealNormal.tooltip": "服务器决定基础治疗值。在单人游戏中，值将本地生效。",
+  "config.lifedrain.baseHealHard.tooltip": "服务器决定基础治疗值。在单人游戏中，值将本地生效。",
+  "config.lifedrain.bonusHealMultiplier.tooltip": "服务器决定额外治疗倍数。在单人游戏中，值将本地生效。"
+}
