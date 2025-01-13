@@ -6,5 +6,11 @@
   "config.lifedrain.baseHealEasy": "Основное исцеление (Легкий)",
   "config.lifedrain.baseHealNormal": "Основное исцеление (Нормальный)",
   "config.lifedrain.baseHealHard": "Основное исцеление (Трудный)",
-  "config.lifedrain.bonusHealMultiplier": "Множитель бонусного исцеления"
+  "config.lifedrain.bonusHealMultiplier": "Множитель бонусного исцеления",
+  "config.lifedrain.enableParticles.tooltip": "Эта настройка влияет только на клиент. Сервер может её переопределить. В синглплеере значения будут работать локально.",
+  "config.lifedrain.lifestealCooldown.tooltip": "Значение времени восстановления на сервере используется, а настройки клиента игнорируются. В синглплеере значения будут работать локально.",
+  "config.lifedrain.baseHealEasy.tooltip": "Сервер определяет основные значения исцеления. В синглплеере значения будут работать локально.",
+  "config.lifedrain.baseHealNormal.tooltip": "Сервер определяет основные значения исцеления. В синглплеере значения будут работать локально.",
+  "config.lifedrain.baseHealHard.tooltip": "Сервер определяет основные значения исцеления. В синглплеере значения будут работать локально.",
+  "config.lifedrain.bonusHealMultiplier.tooltip": "Сервер определяет множитель дополнительного исцеления. В синглплеере значения будут работать локально."
 }

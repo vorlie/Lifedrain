@@ -20,9 +20,11 @@ import vorlie.lifedrain.config.ConfigManager;
 @Environment(EnvType.CLIENT) // Ensure this only runs on the client side
 public class ModMenuIntegration implements ModMenuApi {
     private static final Logger LOGGER = LoggerFactory.getLogger("lifedrain");
+
     @Override
     public ConfigScreenFactory<?> getModConfigScreenFactory() {
-        LOGGER.info("ModMenuIntegration loaded successfully.");
+        LOGGER.info("Lifesteal: ModMenuIntegration loaded successfully.");
+
         return parent -> {
             ConfigBuilder builder = ConfigBuilder.create()
                     .setParentScreen(parent)
@@ -36,6 +38,7 @@ public class ModMenuIntegration implements ModMenuApi {
                     .startBooleanToggle(Text.translatable("config.lifedrain.enableParticles"), ConfigManager.CONFIG.enableParticles)
                     .setDefaultValue(true)
                     .setSaveConsumer(value -> ConfigManager.CONFIG.enableParticles = value)
+                    .setTooltip(Text.translatable("config.lifedrain.enableParticles.tooltip"))
                     .build());
 
             // Lifesteal Cooldown
@@ -44,6 +47,7 @@ public class ModMenuIntegration implements ModMenuApi {
                     .setDefaultValue(1000)
                     .setMin(0)
                     .setSaveConsumer(value -> ConfigManager.CONFIG.lifestealCooldown = value)
+                    .setTooltip(Text.translatable("config.lifedrain.lifestealCooldown.tooltip"))
                     .build());
 
             // Base Heal (Easy)
@@ -52,6 +56,7 @@ public class ModMenuIntegration implements ModMenuApi {
                     .setDefaultValue(2.0F)
                     .setMin(0.0F)
                     .setSaveConsumer(value -> ConfigManager.CONFIG.baseHealEasy = value)
+                    .setTooltip(Text.translatable("config.lifedrain.baseHealEasy.tooltip"))
                     .build());
 
             // Base Heal (Normal)
@@ -60,6 +65,7 @@ public class ModMenuIntegration implements ModMenuApi {
                     .setDefaultValue(1.0F)
                     .setMin(0.0F)
                     .setSaveConsumer(value -> ConfigManager.CONFIG.baseHealNormal = value)
+                    .setTooltip(Text.translatable("config.lifedrain.baseHealNormal.tooltip"))
                     .build());
 
             // Base Heal (Hard)
@@ -68,6 +74,7 @@ public class ModMenuIntegration implements ModMenuApi {
                     .setDefaultValue(0.5F)
                     .setMin(0.0F)
                     .setSaveConsumer(value -> ConfigManager.CONFIG.baseHealHard = value)
+                    .setTooltip(Text.translatable("config.lifedrain.baseHealHard.tooltip"))
                     .build());
 
             // Bonus Heal Multiplier
@@ -76,6 +83,7 @@ public class ModMenuIntegration implements ModMenuApi {
                     .setDefaultValue(0.2F)
                     .setMin(0.0F)
                     .setSaveConsumer(value -> ConfigManager.CONFIG.bonusHealMultiplier = value)
+                    .setTooltip(Text.translatable("config.lifedrain.bonusHealMultiplier.tooltip"))
                     .build());
 
             builder.setSavingRunnable(ConfigManager::save);

@@ -6,5 +6,11 @@
   "config.lifedrain.baseHealEasy": "Guérison de base (Facile)",
   "config.lifedrain.baseHealNormal": "Guérison de base (Normal)",
   "config.lifedrain.baseHealHard": "Guérison de base (Difficile)",
-  "config.lifedrain.bonusHealMultiplier": "Multiplicateur de guérison bonus"
+  "config.lifedrain.bonusHealMultiplier": "Multiplicateur de guérison bonus",
+  "config.lifedrain.enableParticles.tooltip": "Cette option n'affecte que le client. Le serveur peut la remplacer. En single-player, les valeurs fonctionneront localement.",
+  "config.lifedrain.lifestealCooldown.tooltip": "La valeur de cooldown du serveur est utilisée, les paramètres du client sont ignorés. En single-player, les valeurs fonctionneront localement.",
+  "config.lifedrain.baseHealEasy.tooltip": "Le serveur détermine les valeurs de guérison de base. En single-player, les valeurs fonctionneront localement.",
+  "config.lifedrain.baseHealNormal.tooltip": "Le serveur détermine les valeurs de guérison de base. En single-player, les valeurs fonctionneront localement.",
+  "config.lifedrain.baseHealHard.tooltip": "Le serveur détermine les valeurs de guérison de base. En single-player, les valeurs fonctionneront localement.",
+  "config.lifedrain.bonusHealMultiplier.tooltip": "Le serveur détermine le multiplicateur de guérison bonus. En single-player, les valeurs fonctionneront localement."
 }

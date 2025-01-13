@@ -6,5 +6,11 @@
   "config.lifedrain.baseHealEasy": "기본 치유 (쉬움)",
   "config.lifedrain.baseHealNormal": "기본 치유 (일반)",
   "config.lifedrain.baseHealHard": "기본 치유 (어려움)",
-  "config.lifedrain.bonusHealMultiplier": "보너스 치유 배율"
+  "config.lifedrain.bonusHealMultiplier": "보너스 치유 배율",
+  "config.lifedrain.enableParticles.tooltip": "이 설정은 클라이언트에만 영향을 미칩니다. 서버에서 덮어쓸 수 있습니다. 싱글 플레이어에서 값은 로컬로 적용됩니다.",
+  "config.lifedrain.lifestealCooldown.tooltip": "서버 측 쿨다운 값이 사용되며, 클라이언트 설정은 무시됩니다. 싱글 플레이어에서 값은 로컬로 적용됩니다.",
+  "config.lifedrain.baseHealEasy.tooltip": "서버가 기본 치유 값을 결정합니다. 싱글 플레이어에서 값은 로컬로 적용됩니다.",
+  "config.lifedrain.baseHealNormal.tooltip": "서버가 기본 치유 값을 결정합니다. 싱글 플레이어에서 값은 로컬로 적용됩니다.",
+  "config.lifedrain.baseHealHard.tooltip": "서버가 기본 치유 값을 결정합니다. 싱글 플레이어에서 값은 로컬로 적용됩니다.",
+  "config.lifedrain.bonusHealMultiplier.tooltip": "서버가 보너스 치유 배율을 결정합니다. 싱글 플레이어에서 값은 로컬로 적용됩니다."
 }

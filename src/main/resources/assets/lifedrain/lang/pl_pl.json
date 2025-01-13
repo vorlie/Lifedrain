@@ -6,5 +6,11 @@
   "config.lifedrain.baseHealEasy": "Podstawowe Leczenie (Łatwy)",
   "config.lifedrain.baseHealNormal": "Podstawowe Leczenie (Normalny)",
   "config.lifedrain.baseHealHard": "Podstawowe Leczenie (Trudny)",
-  "config.lifedrain.bonusHealMultiplier": "Mnożnik Leczenia Bonusowego"
+  "config.lifedrain.bonusHealMultiplier": "Mnożnik Leczenia Bonusowego",
+  "config.lifedrain.enableParticles.tooltip": "To ustawienie wpływa tylko na klienta. Serwer może je nadpisać. W trybie single-player wartości będą działały lokalnie.",
+  "config.lifedrain.lifestealCooldown.tooltip": "Wartość cooldownu serwera jest używana, a ustawienia klienta są ignorowane. W trybie single-player wartości będą działały lokalnie.",
+  "config.lifedrain.baseHealEasy.tooltip": "Serwer ustala podstawowe wartości leczenia. W trybie single-player wartości będą działały lokalnie.",
+  "config.lifedrain.baseHealNormal.tooltip": "Serwer ustala podstawowe wartości leczenia. W trybie single-player wartości będą działały lokalnie.",
+  "config.lifedrain.baseHealHard.tooltip": "Serwer ustala podstawowe wartości leczenia. W trybie single-player wartości będą działały lokalnie.",
+  "config.lifedrain.bonusHealMultiplier.tooltip": "Serwer ustala mnożnik bonusowego leczenia. W trybie single-player wartości będą działały lokalnie."
 }
