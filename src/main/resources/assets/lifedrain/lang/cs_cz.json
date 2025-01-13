@@ -1,0 +1,16 @@
+{
+  "config.lifedrain.title": "Nastavení pro Lifedrain",
+  "config.lifedrain.general": "Hlavní",
+  "config.lifedrain.enableParticles": "Zapnout Partikly",
+  "config.lifedrain.lifestealCooldown": "Cooldown na lifesteal (ms)",
+  "config.lifedrain.baseHealEasy": "Základní léčení (Jednoduchá Obtíž.)",
+  "config.lifedrain.baseHealNormal": "Základní léčení (Střední Obtíž.)",
+  "config.lifedrain.baseHealHard": "Základní léčení (Těžká Obtíž.)",
+  "config.lifedrain.bonusHealMultiplier": "Bonusový násobitel léčení",
+  "config.lifedrain.enableParticles.tooltip": "toto nastavení je pouze pro klient. Server jej může změnit. Ve hře pro jednoho hráče fungujou tyto nastavení.",
+  "config.lifedrain.lifestealCooldown.tooltip": "Cooldown pro stranu server, nastavení v klientu je ignorováno, ve hře pro jednoho hráče jsou použity tyto nastavení.",
+  "config.lifedrain.baseHealEasy.tooltip": "Server rozhoduje o základních hodnotách léčení, ve hře pro jednoho hráče je použita tato možnost.",
+  "config.lifedrain.baseHealNormal.tooltip": "Server rozhoduje o základních hodnotách léčení, ve hře pro jednoho hráče je použita tato možnost.",
+  "config.lifedrain.baseHealHard.tooltip": "Server rozhoduje o základních hodnotách léčení, ve hře pro jednoho hráče je použita tato možnost.",
+  "config.lifedrain.bonusHealMultiplier.tooltip": "Server rozhoduje o násobiteli léčení, ve hře pro jednoho hráče je použita tato možnost."
+}
