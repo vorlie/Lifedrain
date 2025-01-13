@@ -1,9 +1,9 @@
 # **LifeDrain**
-[Features](#-features) • [Configuration](#-configuration) • [Translations](#translations-available) • [Requirements](#requirements)
+[Features](#features) • [Configuration](#configuration) • [Translations](#translations-available) • [Requirements](#requirements)
 
 **LifeDrain** adds a simple but powerful mechanic to Minecraft: stealing life from hostile mobs. Every time you attack, you’ll heal yourself based on the damage dealt, making combat a way to stay alive rather than just survive.
 
-### 🩸 Features:
+### Features:
 - **Healing mechanics:**
     - Base healing scales with the difficulty level:
         - Easy: 2.0 HP
@@ -16,7 +16,7 @@
     - **Client-Side Configuration Options:** Through **Cloth Config** and **Mod Menu**, you can customize particle effects, cooldown settings, and other features directly from the in-game settings menu.
 - Applies only to hostile mobs, ensuring lifesteal is balanced and works as intended in combat.
 
-### ⚙️ Configuration:
+###  ️Configuration:
 - Customize healing values for different difficulty levels:
     - Base healing for Easy, Normal, and Hard modes.
     - Bonus healing multiplier based on the damage dealt.
