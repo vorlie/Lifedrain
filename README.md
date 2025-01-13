@@ -22,7 +22,7 @@
 
 This mod is lightweight and perfect for anyone who enjoys combat-focused gameplay or just wants a little extra survivability.
 
-**Note:** Although the mod can be loaded in Minecraft 1.21.X, it is not recommended. Attacking a hostile mob in this version will cause your game to crash.
+**Note:** Although the mod can be loaded in Minecraft `1.21.X`, it is not recommended. Attacking a hostile mob in this versions other than `1.21` will cause your game to crash.
 
 **Requirements:**
 - Fabric Loader 0.16.10+
