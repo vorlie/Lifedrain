@@ -23,7 +23,7 @@ public class LifeDrain implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-		LOGGER.info("Lifesteal: LifeDrain mod initialized!");
+		LOGGER.info("[LifeDrain] LifeDrain mod initialized!");
 		ConfigManager.load(); // Load configuration
 
 		COOLDOWN_TIME = ConfigManager.CONFIG.lifestealCooldown;
@@ -40,7 +40,7 @@ public class LifeDrain implements ModInitializer {
 		// Register the config reload event
 		ServerLifecycleEvents.END_DATA_PACK_RELOAD.register((server, resourceManager, success) -> {
 			ConfigManager.load();
-			LOGGER.info("Lifesteal: LifeDrain config reloaded.");
+			LOGGER.info("[LifeDrain] LifeDrain config reloaded.");
 			COOLDOWN_TIME = ConfigManager.CONFIG.lifestealCooldown;
 		});
 
@@ -67,7 +67,7 @@ public class LifeDrain implements ModInitializer {
 			float totalHeal = baseHeal + bonusHeal;
 			player.heal(totalHeal);
 
-			LOGGER.info("Lifesteal: {} healed {} (Base: {}, Bonus: {}).",
+			LOGGER.info("[LifeDrain] {} healed {} (Base: {}, Bonus: {}).",
 					player.getName().getString(), totalHeal, baseHeal, bonusHeal);
 
 			// Update last lifesteal activation time

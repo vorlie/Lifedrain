@@ -23,7 +23,7 @@ public class ModMenuIntegration implements ModMenuApi {
 
     @Override
     public ConfigScreenFactory<?> getModConfigScreenFactory() {
-        LOGGER.info("Lifesteal: ModMenuIntegration loaded successfully.");
+        LOGGER.info("[LifeDrain] ModMenuIntegration loaded successfully.");
 
         return parent -> {
             ConfigBuilder builder = ConfigBuilder.create()
