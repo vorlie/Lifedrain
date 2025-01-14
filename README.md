@@ -43,6 +43,7 @@ The mod is fully translated into the following languages:
 - 🇩🇪 **German**
 - 🇯🇵 **Japanese**
 - 🇫🇷 **French**
+- 🇨🇿 **Czech** - Thanks to [DvopHeh](https://github.com/DvopHeh)
 
 This mod is lightweight and perfect for anyone who enjoys combat-focused gameplay or just wants a little extra survivability. ⚔️🛡️
 
