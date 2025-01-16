@@ -24,7 +24,7 @@ public class ConfigCheckCommand {
 
     // Execute the command
     public static int executeCheckConfigCommand(CommandContext<ServerCommandSource> context) {
-        LOGGER.info("Checking config for missing values...");
+        LOGGER.info("[LifeDrain] Checking config for missing values...");
 
         // Check and add missing values in the config
         ConfigManager.load();  // Reload the config file
@@ -32,7 +32,7 @@ public class ConfigCheckCommand {
 
         // Send feedback to the player (command source)
         context.getSource().sendFeedback(() -> Text.literal(
-                "LifeDrain: Config file has been checked and updated. " + "To apply changes, run /reload."
+                "[LifeDrain] Config file has been checked and updated. " + "To apply changes, run /reload."
         ), false);
 
         // Save the updated config back to the file

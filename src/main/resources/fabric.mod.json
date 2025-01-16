@@ -8,7 +8,9 @@
 		"vorlie"
 	],
 	"contact": {
-		"sources": "https://github.com/vorlie/Lifedrain"
+		"sources": "https://github.com/vorlie/Lifedrain",
+		"issues": "https://github.com/vorlie/Lifedrain/issues",
+		"homepage": "https://modrinth.com/mod/lifedrain"
 	},
 	"license": "MIT",
 	"icon": "assets/lifedrain/icon.png",
@@ -45,6 +47,12 @@
 		"modmenu": "11.0.3"
 	},
 	"custom": {
-		"modmenu:api": true
+		"modmenu:api": true,
+		"modmenu": {
+			"links": {
+				"modmenu.discord": "https://discord.gg/yUueAFyAmN"
+			},
+			"update_checker": true
+		}
 	}
 }

@@ -7,10 +7,14 @@
   "config.lifedrain.baseHealNormal": "基础治疗 (正常)",
   "config.lifedrain.baseHealHard": "基础治疗 (困难)",
   "config.lifedrain.bonusHealMultiplier": "额外治疗倍增",
+  "config.lifedrain.mobsHealOnHit": "启用怪物攻击玩家时恢复生命",
+  "config.lifedrain.mobHealAmountEasy": "怪物治疗量（简单）",
+  "config.lifedrain.mobHealAmountNormal": "怪物治疗量（普通）",
+  "config.lifedrain.mobHealAmountHard": "怪物治疗量（困难）",
   "config.lifedrain.enableParticles.tooltip": "此设置仅影响客户端。服务器可能会覆盖它。在单人游戏中，值将本地生效。",
   "config.lifedrain.lifestealCooldown.tooltip": "服务器的冷却时间值会被使用，客户端设置将被忽略。在单人游戏中，值将本地生效。",
-  "config.lifedrain.baseHealEasy.tooltip": "服务器决定基础治疗值。在单人游戏中，值将本地生效。",
-  "config.lifedrain.baseHealNormal.tooltip": "服务器决定基础治疗值。在单人游戏中，值将本地生效。",
-  "config.lifedrain.baseHealHard.tooltip": "服务器决定基础治疗值。在单人游戏中，值将本地生效。",
-  "config.lifedrain.bonusHealMultiplier.tooltip": "服务器决定额外治疗倍数。在单人游戏中，值将本地生效。"
+  "config.lifedrain.baseHeal.tooltip": "服务器决定基础治疗值。在单人游戏中，值将本地生效。",
+  "config.lifedrain.bonusHealMultiplier.tooltip": "服务器决定额外治疗倍数。在单人游戏中，值将本地生效。",
+  "config.lifedrain.mobsHealOnHit.tooltip": "允许怪物在成功攻击玩家时恢复生命值。",
+  "config.lifedrain.mobHealAmount.tooltip": "指定怪物攻击玩家时恢复的生命值数量。"
 }

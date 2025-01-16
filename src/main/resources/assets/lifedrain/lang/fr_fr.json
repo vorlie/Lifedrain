@@ -7,10 +7,14 @@
   "config.lifedrain.baseHealNormal": "Guérison de base (Normal)",
   "config.lifedrain.baseHealHard": "Guérison de base (Difficile)",
   "config.lifedrain.bonusHealMultiplier": "Multiplicateur de guérison bonus",
+  "config.lifedrain.mobsHealOnHit": "Activer la guérison des mobs lors d'une attaque sur un joueur",
+  "config.lifedrain.mobHealAmountEasy": "Quantité soignée par les mobs (Facile)",
+  "config.lifedrain.mobHealAmountNormal": "Quantité soignée par les mobs (Normal)",
+  "config.lifedrain.mobHealAmountHard": "Quantité soignée par les mobs (Difficile)",
   "config.lifedrain.enableParticles.tooltip": "Cette option n'affecte que le client. Le serveur peut la remplacer. En single-player, les valeurs fonctionneront localement.",
   "config.lifedrain.lifestealCooldown.tooltip": "La valeur de cooldown du serveur est utilisée, les paramètres du client sont ignorés. En single-player, les valeurs fonctionneront localement.",
-  "config.lifedrain.baseHealEasy.tooltip": "Le serveur détermine les valeurs de guérison de base. En single-player, les valeurs fonctionneront localement.",
-  "config.lifedrain.baseHealNormal.tooltip": "Le serveur détermine les valeurs de guérison de base. En single-player, les valeurs fonctionneront localement.",
-  "config.lifedrain.baseHealHard.tooltip": "Le serveur détermine les valeurs de guérison de base. En single-player, les valeurs fonctionneront localement.",
-  "config.lifedrain.bonusHealMultiplier.tooltip": "Le serveur détermine le multiplicateur de guérison bonus. En single-player, les valeurs fonctionneront localement."
+  "config.lifedrain.baseHeal.tooltip": "Le serveur détermine les valeurs de guérison de base. En single-player, les valeurs fonctionneront localement.",
+  "config.lifedrain.bonusHealMultiplier.tooltip": "Le serveur détermine le multiplicateur de guérison bonus. En single-player, les valeurs fonctionneront localement.",
+  "config.lifedrain.mobsHealOnHit.tooltip": "Permet aux mobs de se soigner lorsqu'ils attaquent avec succès un joueur.",
+  "config.lifedrain.mobHealAmount.tooltip": "Spécifie la quantité de santé que les mobs récupèrent lorsqu'ils attaquent un joueur."
 }

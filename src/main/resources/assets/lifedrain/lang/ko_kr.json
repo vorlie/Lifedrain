@@ -7,10 +7,14 @@
   "config.lifedrain.baseHealNormal": "기본 치유 (일반)",
   "config.lifedrain.baseHealHard": "기본 치유 (어려움)",
   "config.lifedrain.bonusHealMultiplier": "보너스 치유 배율",
+  "config.lifedrain.mobsHealOnHit": "플레이어를 공격한 몹 치유 활성화",
+  "config.lifedrain.mobHealAmountEasy": "몹의 회복량 (쉬움)",
+  "config.lifedrain.mobHealAmountNormal": "몹의 회복량 (보통)",
+  "config.lifedrain.mobHealAmountHard": "몹의 회복량 (어려움)",
   "config.lifedrain.enableParticles.tooltip": "이 설정은 클라이언트에만 영향을 미칩니다. 서버에서 덮어쓸 수 있습니다. 싱글 플레이어에서 값은 로컬로 적용됩니다.",
   "config.lifedrain.lifestealCooldown.tooltip": "서버 측 쿨다운 값이 사용되며, 클라이언트 설정은 무시됩니다. 싱글 플레이어에서 값은 로컬로 적용됩니다.",
-  "config.lifedrain.baseHealEasy.tooltip": "서버가 기본 치유 값을 결정합니다. 싱글 플레이어에서 값은 로컬로 적용됩니다.",
-  "config.lifedrain.baseHealNormal.tooltip": "서버가 기본 치유 값을 결정합니다. 싱글 플레이어에서 값은 로컬로 적용됩니다.",
-  "config.lifedrain.baseHealHard.tooltip": "서버가 기본 치유 값을 결정합니다. 싱글 플레이어에서 값은 로컬로 적용됩니다.",
-  "config.lifedrain.bonusHealMultiplier.tooltip": "서버가 보너스 치유 배율을 결정합니다. 싱글 플레이어에서 값은 로컬로 적용됩니다."
+  "config.lifedrain.baseHeal.tooltip": "서버가 기본 치유 값을 결정합니다. 싱글 플레이어에서 값은 로컬로 적용됩니다.",
+  "config.lifedrain.bonusHealMultiplier.tooltip": "서버가 보너스 치유 배율을 결정합니다. 싱글 플레이어에서 값은 로컬로 적용됩니다.",
+  "config.lifedrain.mobsHealOnHit.tooltip": "몹이 플레이어를 성공적으로 공격할 때 자신을 치유할 수 있도록 허용합니다.",
+  "config.lifedrain.mobHealAmount.tooltip": "몹이 플레이어를 공격할 때 치유되는 체력량을 지정합니다."
 }

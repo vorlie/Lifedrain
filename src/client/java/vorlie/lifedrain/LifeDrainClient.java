@@ -1,22 +1,25 @@
 package vorlie.lifedrain;
 
 import net.fabricmc.api.ClientModInitializer;
-
+import net.fabricmc.fabric.api.client.event.lifecycle.v1.ClientTickEvents;
 import net.fabricmc.fabric.api.event.lifecycle.v1.ServerLifecycleEvents;
 import net.fabricmc.fabric.api.event.player.AttackEntityCallback;
+
 import net.minecraft.client.MinecraftClient;
-import net.minecraft.entity.mob.HostileEntity;
-import net.minecraft.particle.ParticleTypes;
 import net.minecraft.client.world.ClientWorld;
+import net.minecraft.entity.mob.HostileEntity;
 import net.minecraft.entity.player.PlayerEntity;
+import net.minecraft.particle.ParticleTypes;
 import net.minecraft.util.ActionResult;
 import net.minecraft.util.math.random.Random;
 
 import vorlie.lifedrain.config.ConfigManager;
+import vorlie.lifedrain.utils.UpdateChecker;
 
 public class LifeDrainClient implements ClientModInitializer {
 	private long lastLifestealTime = 0; // Time of the last lifesteal
 	private long COOLDOWN_TIME; // Cooldown time in milliseconds (1 second)
+	private boolean updateChecked = false;
 
 	@Override
 	public void onInitializeClient() {
@@ -36,6 +39,13 @@ public class LifeDrainClient implements ClientModInitializer {
 		ServerLifecycleEvents.END_DATA_PACK_RELOAD.register((server, resourceManager, success) -> {
 			ConfigManager.load();
 			COOLDOWN_TIME = ConfigManager.CONFIG.lifestealCooldown;
+		});
+
+		ClientTickEvents.END_CLIENT_TICK.register(client -> {
+			if (client.world != null && !updateChecked) {
+				UpdateChecker.checkForUpdates();
+				updateChecked = true;
+			}
 		});
 	}
 

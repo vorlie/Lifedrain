@@ -7,10 +7,14 @@
   "config.lifedrain.baseHealNormal": "Basisheilung (Normal)",
   "config.lifedrain.baseHealHard": "Basisheilung (Schwierig)",
   "config.lifedrain.bonusHealMultiplier": "Bonus Heilungs Multiplikator",
+  "config.lifedrain.mobsHealOnHit": "Mob-Heilung bei Spielerangriff aktivieren",
+  "config.lifedrain.mobHealAmountEasy": "Heilungsmenge für Mobs (Einfach)",
+  "config.lifedrain.mobHealAmountNormal": "Heilungsmenge für Mobs (Normal)",
+  "config.lifedrain.mobHealAmountHard": "Heilungsmenge für Mobs (Schwer)",
   "config.lifedrain.enableParticles.tooltip": "Diese Einstellung betrifft nur den Client. Der Server kann sie überschreiben. Im Einzelspieler-Modus funktionieren die Werte lokal.",
   "config.lifedrain.lifestealCooldown.tooltip": "Der Cooldown-Wert des Servers wird verwendet, und die Client-Einstellungen werden ignoriert. Im Einzelspieler-Modus funktionieren die Werte lokal.",
-  "config.lifedrain.baseHealEasy.tooltip": "Der Server bestimmt die Grundheilungswerte. Im Einzelspieler-Modus funktionieren die Werte lokal.",
-  "config.lifedrain.baseHealNormal.tooltip": "Der Server bestimmt die Grundheilungswerte. Im Einzelspieler-Modus funktionieren die Werte lokal.",
-  "config.lifedrain.baseHealHard.tooltip": "Der Server bestimmt die Grundheilungswerte. Im Einzelspieler-Modus funktionieren die Werte lokal.",
-  "config.lifedrain.bonusHealMultiplier.tooltip": "Der Server bestimmt den Bonusheilungs-Multiplikator. Im Einzelspieler-Modus funktionieren die Werte lokal."
+  "config.lifedrain.baseHeal.tooltip": "Der Server bestimmt die Grundheilungswerte. Im Einzelspieler-Modus funktionieren die Werte lokal.",
+  "config.lifedrain.bonusHealMultiplier.tooltip": "Der Server bestimmt den Bonusheilungs-Multiplikator. Im Einzelspieler-Modus funktionieren die Werte lokal.",
+  "config.lifedrain.mobsHealOnHit.tooltip": "Ermöglicht Mobs, sich zu heilen, wenn sie erfolgreich einen Spieler angreifen.",
+  "config.lifedrain.mobHealAmount.tooltip": "Legt die Menge an Gesundheit fest, die Mobs heilen, wenn sie einen Spieler angreifen."
 }
