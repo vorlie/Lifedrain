@@ -70,7 +70,7 @@ public class ModMenuIntegration implements ModMenuApi {
             // Mob Heal Amount (Hard)
             general.addEntry(entryBuilder
                     .startFloatField(Text.translatable("config.lifedrain.mobHealAmountHard"), ConfigManager.CONFIG.mobHealAmountHard)
-                    .setDefaultValue(4.0F)
+                    .setDefaultValue(2.0F)
                     .setMin(0.0F)
                     .setSaveConsumer(value -> ConfigManager.CONFIG.mobHealAmountHard = value)
                     .setTooltip(Text.translatable("config.lifedrain.mobHealAmount.tooltip"))
