@@ -7,10 +7,14 @@
   "config.lifedrain.baseHealNormal": "Base Heal (Normal)",
   "config.lifedrain.baseHealHard": "Base Heal (Hard)",
   "config.lifedrain.bonusHealMultiplier": "Bonus Heal Multiplier",
+  "config.lifedrain.mobsHealOnHit": "Enable Mob Healing on Player Hit",
+  "config.lifedrain.mobHealAmountEasy": "Amount Healed by Mobs (Easy)",
+  "config.lifedrain.mobHealAmountNormal": "Amount Healed by Mobs (Normal)",
+  "config.lifedrain.mobHealAmountHard": "Amount Healed by Mobs (Hard)",
   "config.lifedrain.enableParticles.tooltip": "This setting only affects the client. The server may override it. In single-player, values will work locally.",
   "config.lifedrain.lifestealCooldown.tooltip": "Server-side cooldown value is used, and client settings are ignored. In single-player, values will work locally.",
-  "config.lifedrain.baseHealEasy.tooltip": "Server determines the base healing values. In single-player, values will work locally.",
-  "config.lifedrain.baseHealNormal.tooltip": "Server determines the base healing values. In single-player, values will work locally.",
-  "config.lifedrain.baseHealHard.tooltip": "Server determines the base healing values. In single-player, values will work locally.",
-  "config.lifedrain.bonusHealMultiplier.tooltip": "Server determines the bonus healing multiplier. In single-player, values will work locally."
+  "config.lifedrain.baseHeal.tooltip": "Server determines the base healing values. In single-player, values will work locally.",
+  "config.lifedrain.bonusHealMultiplier.tooltip": "Server determines the bonus healing multiplier. In single-player, values will work locally.",
+  "config.lifedrain.mobsHealOnHit.tooltip": "Allows mobs to heal themselves when they successfully attack a player.",
+  "config.lifedrain.mobHealAmount.tooltip": "Specifies the amount of health mobs heal when they attack a player."
 }

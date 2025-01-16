@@ -84,6 +84,26 @@ public class ConfigManager {
             LOGGER.info("[LifeDrain] Missing 'bonusHealMultiplier', adding default value.");
             configJson.addProperty("bonusHealMultiplier", LifeDrainConfig.DEFAULT_BONUS_HEAL_MULTIPLIER);
         }
+
+        if (!configJson.has("mobsHealOnHit")) {
+            LOGGER.info("[LifeDrain] Missing 'mobsHealOnHit', adding default value.");
+            configJson.addProperty("mobsHealOnHit", LifeDrainConfig.DEFAULT_ENABLE_MOB_HEAL);
+        }
+
+        if (!configJson.has("mobHealAmountEasy")) {
+            LOGGER.info("[LifeDrain] Missing 'mobHealAmountEasy', adding default value.");
+            configJson.addProperty("mobHealAmountEasy", LifeDrainConfig.DEFAULT_MOB_HEAL_AMOUNT_EASY);
+        }
+
+        if (!configJson.has("mobHealAmountNormal")) {
+            LOGGER.info("[LifeDrain] Missing 'mobHealAmountNormal', adding default value.");
+            configJson.addProperty("mobHealAmountNormal", LifeDrainConfig.DEFAULT_MOB_HEAL_AMOUNT_NORMAL);
+        }
+
+        if (!configJson.has("mobHealAmountHard")) {
+            LOGGER.info("[LifeDrain] Missing 'mobHealAmountHard', adding default value.");
+            configJson.addProperty("mobHealAmountHard", LifeDrainConfig.DEFAULT_MOB_HEAL_AMOUNT_HARD);
+        }
     }
 
     public static void save() {

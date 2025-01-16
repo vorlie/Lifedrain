@@ -41,6 +41,41 @@ public class ModMenuIntegration implements ModMenuApi {
                     .setTooltip(Text.translatable("config.lifedrain.enableParticles.tooltip"))
                     .build());
 
+            // Enable Mob Healing
+            general.addEntry(entryBuilder
+                    .startBooleanToggle(Text.translatable("config.lifedrain.mobsHealOnHit"), ConfigManager.CONFIG.mobsHealOnHit)
+                    .setDefaultValue(true)
+                    .setSaveConsumer(value -> ConfigManager.CONFIG.mobsHealOnHit = value)
+                    .setTooltip(Text.translatable("config.lifedrain.mobsHealOnHit.tooltip"))
+                    .build());
+
+            // Mob Heal Amount (Easy)
+            general.addEntry(entryBuilder
+                    .startFloatField(Text.translatable("config.lifedrain.mobHealAmountEasy"), ConfigManager.CONFIG.mobHealAmountEasy)
+                    .setDefaultValue(0.5F)
+                    .setMin(0.0F)
+                    .setSaveConsumer(value -> ConfigManager.CONFIG.mobHealAmountEasy = value)
+                    .setTooltip(Text.translatable("config.lifedrain.mobHealAmount.tooltip"))
+                    .build());
+
+            // Mob Heal Amount (Normal)
+            general.addEntry(entryBuilder
+                    .startFloatField(Text.translatable("config.lifedrain.mobHealAmountNormal"), ConfigManager.CONFIG.mobHealAmountNormal)
+                    .setDefaultValue(1.0F)
+                    .setMin(0.0F)
+                    .setSaveConsumer(value -> ConfigManager.CONFIG.mobHealAmountNormal = value)
+                    .setTooltip(Text.translatable("config.lifedrain.mobHealAmount.tooltip"))
+                    .build());
+
+            // Mob Heal Amount (Hard)
+            general.addEntry(entryBuilder
+                    .startFloatField(Text.translatable("config.lifedrain.mobHealAmountHard"), ConfigManager.CONFIG.mobHealAmountHard)
+                    .setDefaultValue(4.0F)
+                    .setMin(0.0F)
+                    .setSaveConsumer(value -> ConfigManager.CONFIG.mobHealAmountHard = value)
+                    .setTooltip(Text.translatable("config.lifedrain.mobHealAmount.tooltip"))
+                    .build());
+
             // Lifesteal Cooldown
             general.addEntry(entryBuilder
                     .startIntField(Text.translatable("config.lifedrain.lifestealCooldown"), ConfigManager.CONFIG.lifestealCooldown)
@@ -56,7 +91,7 @@ public class ModMenuIntegration implements ModMenuApi {
                     .setDefaultValue(2.0F)
                     .setMin(0.0F)
                     .setSaveConsumer(value -> ConfigManager.CONFIG.baseHealEasy = value)
-                    .setTooltip(Text.translatable("config.lifedrain.baseHealEasy.tooltip"))
+                    .setTooltip(Text.translatable("config.lifedrain.baseHeal.tooltip"))
                     .build());
 
             // Base Heal (Normal)
@@ -65,7 +100,7 @@ public class ModMenuIntegration implements ModMenuApi {
                     .setDefaultValue(1.0F)
                     .setMin(0.0F)
                     .setSaveConsumer(value -> ConfigManager.CONFIG.baseHealNormal = value)
-                    .setTooltip(Text.translatable("config.lifedrain.baseHealNormal.tooltip"))
+                    .setTooltip(Text.translatable("config.lifedrain.baseHeal.tooltip"))
                     .build());
 
             // Base Heal (Hard)
@@ -74,7 +109,7 @@ public class ModMenuIntegration implements ModMenuApi {
                     .setDefaultValue(0.5F)
                     .setMin(0.0F)
                     .setSaveConsumer(value -> ConfigManager.CONFIG.baseHealHard = value)
-                    .setTooltip(Text.translatable("config.lifedrain.baseHealHard.tooltip"))
+                    .setTooltip(Text.translatable("config.lifedrain.baseHeal.tooltip"))
                     .build());
 
             // Bonus Heal Multiplier
