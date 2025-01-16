@@ -11,7 +11,7 @@ public class LifeDrainConfig {
     public static final boolean DEFAULT_ENABLE_MOB_HEAL = true;
     public static final float DEFAULT_MOB_HEAL_AMOUNT_EASY = 0.5F;
     public static final float DEFAULT_MOB_HEAL_AMOUNT_NORMAL = 1.0F;
-    public static final float DEFAULT_MOB_HEAL_AMOUNT_HARD = 4.0F;
+    public static final float DEFAULT_MOB_HEAL_AMOUNT_HARD = 2.0F;
 
     public boolean enableParticles = DEFAULT_ENABLE_PARTICLES;
     public boolean mobsHealOnHit = DEFAULT_ENABLE_MOB_HEAL;
