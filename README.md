@@ -13,17 +13,27 @@
         - 🔴 Hard: 0.5 HP
     - Bonus healing based on the damage dealt: 🪓 **20% of the damage dealt.**
     - Lifesteal cooldown is set to **1000 milliseconds (1 second)** by default.
+- **Mob Healing:**
+    - Hostile mobs now heal when they hit the player. The healing amount is also difficulty-dependent:
+        - 🟢 Easy: 0.5 HP
+        - 🟡 Normal: 1.0 HP
+        - 🔴 Hard: 2.0 HP
+    - This feature adds a challenge by making mobs more dangerous.
+    - **Optional Disabling:** If you prefer to disable mob healing, you can do so in the configuration settings.
 - **✨ Client-Side Features:**
     - **Particle Effects:** 🎇 Enable or disable particle effects when healing is triggered. Particles are client-side, meaning they will only be visible on your screen.
     - **Client-Side Configuration Options:** Through **Cloth Config** and **Mod Menu**, you can customize particle effects, cooldown settings, and other features directly from the in-game settings menu.
 - Applies only to hostile mobs, ensuring lifesteal is balanced and works as intended in combat. ⚔️
+- **Update Checker:** 📡 The mod checks for updates on GitHub and notifies you when a new version is available. If a new version is found, it provides a link to the Modrinth page to download the update.
 
 ### ⚙️ Configuration:
 - **Server-Side Customization:**
     - Customize healing values for different difficulty levels:
-        - 🟢 Base healing for Easy, Normal, and Hard modes.
+        - 🟢 Player Base healing for Easy, Normal, and Hard modes.
+        - 🔴 Mob healing for Easy, Normal, and Hard modes.
         - 🔧 Bonus healing multiplier based on the damage dealt.
         - ⏳ Adjust the cooldown for lifesteal activation (time between consecutive lifesteal uses).
+    - **Disable Mob Healing:** You can disable mob healing entirely by setting `mobsHealOnHit` to `false` in the configuration.
 - **Client-Side Customization:**
     - 🎆 Enable or disable particle effects when healing is triggered (client-side only).
     - 🔍 Configuration options are accessible through **Cloth Config** and **Mod Menu.**
