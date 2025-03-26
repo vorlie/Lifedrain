@@ -21,7 +21,7 @@
     - This feature adds a challenge by making mobs more dangerous.
     - **Optional Disabling:** If you prefer to disable mob healing, you can do so in the configuration settings.
 - **✨ Client-Side Features:**
-    - **Particle Effects:** 🎇 Enable or disable particle effects when healing is triggered. Particles are client-side, meaning they will only be visible on your screen.
+    - **Particle Effects:** 🎇 Enable or disable particle effects when healing is triggered.
     - **Client-Side Configuration Options:** Through **Cloth Config** and **Mod Menu**, you can customize particle effects, cooldown settings, and other features directly from the in-game settings menu.
 - Applies only to hostile mobs, ensuring lifesteal is balanced and works as intended in combat. ⚔️
 - **Update Checker:** 📡 The mod checks for updates on GitHub and notifies you when a new version is available. If a new version is found, it provides a link to the Modrinth page to download the update.
@@ -35,7 +35,7 @@
         - ⏳ Adjust the cooldown for lifesteal activation (time between consecutive lifesteal uses).
     - **Disable Mob Healing:** You can disable mob healing entirely by setting `mobsHealOnHit` to `false` in the configuration.
 - **Client-Side Customization:**
-    - 🎆 Enable or disable particle effects when healing is triggered (client-side only).
+    - 🎆 Enable or disable particle effects when healing is triggered.
     - 🔍 Configuration options are accessible through **Cloth Config** and **Mod Menu.**
 - 📁 All settings are saved to `lifedrain.json` and can be modified directly.
 - The config file is automatically updated to add missing values if they are not found. ✅
